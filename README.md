@@ -27,12 +27,14 @@ Nous verrons dans ce projet comment faire cette intégrationa partir d'un csv, c
 
 # CREATION DU TRIGGER
 
-voir fichier CREATE_TRIGGER.sql, 
+voir fichier CREATE_TRIGGER.sql
+
 Le trigger permet de voir qui a fait une intégration sur la table COMMUNES et quand.
 
 # CREATION DE LA VIEW
 
-voir fichier CREATE_VIEW.sql, 
+voir fichier CREATE_VIEW.sql
+
 Dans mon cas la vue permet de lister à partir de notre table COMMUNES, toutes les communes du Nord Pas de Calais en se basant sur les codes postaux commencant par 59 et 62.
 
 # RECUPERATION DE DONNEES DE POPULATION VIA API
