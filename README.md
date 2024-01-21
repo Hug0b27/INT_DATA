@@ -16,7 +16,7 @@ Nous verrons dans ce projet comment faire cette intégrationa partir d'un csv, c
 - Se connecter à son serveur SQL Server
 - Clic droit sur le serveur -> "Créer une base de données"  -> Nommer la base de données ("INT_DATA" pour moi) -> Clic OK
 
-#IMPORTATION DES DONNEES VIA FICHIER CSV AVEC DBEAVER
+# IMPORTATION DES DONNEES VIA FICHIER CSV AVEC DBEAVER
 
 - Déployer le menu déroulant de la base de données jusqu'à "Tables" -> Clic droit sur "Tables" -> Importer des données
 - Choisir CSV comme source
@@ -25,17 +25,17 @@ Nous verrons dans ce projet comment faire cette intégrationa partir d'un csv, c
 - Terminer l'intégration en cliquant sur "Commencer"
 - Renommer la table si besoin ("COMMUNES" pour ma part)
 
-#CREATION DU TRIGGER
+# CREATION DU TRIGGER
 
 voir fichier CREATE_TRIGGER.sql
 Le trigger permet de voir qui a fait une intégration sur la table COMMUNES et quand.
 
-#CREATION DE LA VIEW
+# CREATION DE LA VIEW
 
 voir fichier CREATE_VIEW.sql
 Dans mon cas la vue permet de lister à partir de notre table COMMUNES, toutes les communes du Nord Pas de Calais en se basant sur les codes postaux commencant par 59 et 62.
 
-#RECUPERATION DE DONNEES DE POPULATION VIA API
+# RECUPERATION DE DONNEES DE POPULATION VIA API
 
 voir fichier pop_INSEE
 Dans cette étape, nous devons récuperer les information de popiulation des commmunes à partir du code INSEE. Pour cela nous intérgerons l'API Geo via un script Python.
