@@ -48,7 +48,7 @@ Il faut aussi avoir installé au préalable les bibliothèque python suivantes s
 
 Une fois les données récupérées, nous les intégrons dans la même table COMMUNES que nous utilisions.
 
-Nous avons donc terminé ce projet, notre base de données a été enrichie grâce é des données externes, nous avons une vue des communes du Nord Pas de Calais et un trigger d'intégration
+Nous avons donc terminé ce projet, notre base de données a été enrichie grâce à des données externes, nous avons une vue des communes du Nord Pas de Calais et un trigger d'intégration
 
 
 
