@@ -27,17 +27,17 @@ Nous verrons dans ce projet comment faire cette intégrationa partir d'un csv, c
 
 # CREATION DU TRIGGER
 
-voir fichier CREATE_TRIGGER.sql
+voir fichier CREATE_TRIGGER.sql, 
 Le trigger permet de voir qui a fait une intégration sur la table COMMUNES et quand.
 
 # CREATION DE LA VIEW
 
-voir fichier CREATE_VIEW.sql
+voir fichier CREATE_VIEW.sql, 
 Dans mon cas la vue permet de lister à partir de notre table COMMUNES, toutes les communes du Nord Pas de Calais en se basant sur les codes postaux commencant par 59 et 62.
 
 # RECUPERATION DE DONNEES DE POPULATION VIA API
 
-voir fichier pop_INSEE
+voir fichier pop_INSEE, 
 Dans cette étape, nous devons récuperer les information de popiulation des commmunes à partir du code INSEE. Pour cela nous intérgerons l'API Geo via un script Python.
 Notre script doit pouvoir se connceter à notre de base de données SQL Server, il faut donc lui donner les paramètres personnalisés de votre serveur de base de données pour qu'il s'y connecte.
 Il faut aussi avoir installé au préalable les bibliothèque python suivantes sur votre machine: 
