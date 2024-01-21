@@ -39,7 +39,7 @@ Dans mon cas la vue permet de lister à partir de notre table COMMUNES, toutes l
 
 # RECUPERATION DE DONNEES DE POPULATION VIA API
 
-voir fichier pop_INSEE
+voir fichier pop_INSEE.py
 
 Dans cette étape, nous devons récuperer les information de popiulation des commmunes à partir du code INSEE. Pour cela nous intérgerons l'API Geo via un script Python.
 Notre script doit pouvoir se connceter à notre de base de données SQL Server, il faut donc lui donner les paramètres personnalisés de votre serveur de base de données pour qu'il s'y connecte.
