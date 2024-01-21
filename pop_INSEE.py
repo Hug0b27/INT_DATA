@@ -37,6 +37,5 @@ for entry in api_data:
     cursor.execute(update_query, population_info, code_postal)
 
 connection.commit()
-
 cursor.close()
 connection.close()
